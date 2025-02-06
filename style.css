@@ -41,7 +41,7 @@ body {
   background-image: url(images/bg-desktop.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 1440px 480px;
+  background-size: 1440px 430px;
 
   display: flex;
   flex-direction: row;
@@ -108,11 +108,11 @@ body {
 /*STORAGE */
 
 .storage-tab {
-  width: 60%;
-  min-height: 10rem;
+  width: 55%;
+  min-height: 9rem;
   background-color: var(--dark-blue);
 
-  padding: 1rem 2.50rem;
+  padding: 2rem 2.5rem 3.50rem 2.5rem;
   border-radius: .5rem;
 
   display: flex;
@@ -125,8 +125,8 @@ body {
 
 .amount-left-alert{
   position: absolute;
-  right: 5%;
-  top: -3%;
+  right: 8%;
+  top: 0%;
 
   z-index: 2;
 }
@@ -148,7 +148,7 @@ body {
 }
 
 .amount-text {
-  padding: .75rem 1.50rem .75rem  1.50rem;
+  padding: .75rem 1.25rem .75rem  1.25rem;
 	position: relative;
 	background: #FFFFFF;
 	border-radius: .5rem .5rem 0rem .5rem;
@@ -167,7 +167,7 @@ body {
 	border-top-color: #FFFFFF;
 	border-bottom: 0;
 	border-right: 0;
-	margin-left: 9.70rem;
+	margin-left: 9.20rem;
 	margin-top: 5.8rem;
 }
 
@@ -175,6 +175,8 @@ body {
   font-size: var(--fs-body);
   font-weight: var(--fw-regular);
   color:var(--pale-blue);
+
+  margin-bottom: .25rem;
 }
 
 .storage-alert span {
@@ -227,6 +229,7 @@ body {
 .storage-amount-total {
   color: var(--pale-blue);
   font-weight: var(--fw-bold);
+  font-size: 12px;
   display: flex;
   justify-content: space-between;
 }
