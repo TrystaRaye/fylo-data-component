@@ -41,7 +41,7 @@ body {
   background-image: url(images/bg-desktop.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 1440px 430px;
+  background-size: 1440px 460px;
 
   display: flex;
   flex-direction: row;
@@ -112,13 +112,12 @@ body {
   min-height: 9rem;
   background-color: var(--dark-blue);
 
-  padding: 2rem 2.5rem 3.50rem 2.5rem;
+  padding: 2rem 2.5rem 2.75rem 2.5rem;
   border-radius: .5rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15%;
 
   align-self: flex-end;
 }
@@ -148,7 +147,7 @@ body {
 }
 
 .amount-text {
-  padding: .75rem 1.25rem .75rem  1.25rem;
+  padding: .75rem 1.50rem .75rem  1.50rem;
 	position: relative;
 	background: #FFFFFF;
 	border-radius: .5rem .5rem 0rem .5rem;
@@ -167,8 +166,8 @@ body {
 	border-top-color: #FFFFFF;
 	border-bottom: 0;
 	border-right: 0;
-	margin-left: 9.20rem;
-	margin-top: 5.8rem;
+	margin-left: 9.15rem;
+	margin-top: 5rem;
 }
 
 .storage-alert{
@@ -176,7 +175,7 @@ body {
   font-weight: var(--fw-regular);
   color:var(--pale-blue);
 
-  margin-bottom: .25rem;
+  margin-bottom: 1rem;
 }
 
 .storage-alert span {
@@ -202,6 +201,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  margin-bottom: .75rem;
 }
 
 .storage-bar {
